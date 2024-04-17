@@ -4,14 +4,14 @@ _model_canonical='ARM Mali-G610'
 _model='mali-valhall-g610'
 _firmware="${_model}-firmware"
 _repo='https://github.com/JeffyCN/mirrors'
-_firmware_commit='e08ced3e0235b25a7ba2a3aeefd0e2fcbd434b68'
+_firmware_commit='ca33693a03b2782edc237d1d3b786f94849bed7d'
 _eula_commit='8605a3c81b60ac5bd8e492cc02e84a2e0aa8e524'
-_pkgver=g21p0-01eac0
+_pkgver=g18p0-01eac0
 
 pkgname="${_firmware}"
 # The actual DDK version uses -, but it is forbidden in pkgver
 pkgver="${_pkgver/-/.}"
-pkgrel=1
+pkgrel=3
 pkgdesc="Firmware for ${_model_canonical} from rockchip"
 url='https://developer.arm.com/Processors/Mali-G610'
 license=('custom')

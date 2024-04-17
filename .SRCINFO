@@ -1,13 +1,13 @@
 pkgbase = mali-valhall-g610-firmware
 	pkgdesc = Firmware for ARM Mali-G610 from rockchip
-	pkgver = g21p0.01eac0
-	pkgrel = 1
+	pkgver = g18p0.01eac0
+	pkgrel = 3
 	url = https://developer.arm.com/Processors/Mali-G610
 	arch = any
 	license = custom
 	options = !strip
 	source = https://github.com/JeffyCN/mirrors/raw/8605a3c81b60ac5bd8e492cc02e84a2e0aa8e524/END_USER_LICENCE_AGREEMENT.txt
-	source = mali_csffw_g21p0-01eac0.bin::https://github.com/JeffyCN/mirrors/raw/e08ced3e0235b25a7ba2a3aeefd0e2fcbd434b68/firmware/g610/mali_csffw.bin
+	source = mali_csffw_g18p0-01eac0.bin::https://github.com/JeffyCN/mirrors/raw/ca33693a03b2782edc237d1d3b786f94849bed7d/firmware/g610/mali_csffw.bin
 	sha256sums = a78acc73de9909efb879800d4daa4640c4aaa55cd751238a133954aba15e4285
 	sha256sums = 8e7c821a55ca1c345cc79f61243616dd25fc35b81f090946f302886d67712df5
 
