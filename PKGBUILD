@@ -11,7 +11,7 @@ _pkgver=g18p0-01eac0
 pkgname="${_firmware}"
 # The actual DDK version uses -, but it is forbidden in pkgver
 pkgver="${_pkgver/-/.}"
-pkgrel=3
+pkgrel=4
 pkgdesc="Firmware for ${_model_canonical} from rockchip"
 url='https://developer.arm.com/Processors/Mali-G610'
 license=('custom')
@@ -21,7 +21,7 @@ source=(
 )
 sha256sums=(
   'a78acc73de9909efb879800d4daa4640c4aaa55cd751238a133954aba15e4285'
-  '8e7c821a55ca1c345cc79f61243616dd25fc35b81f090946f302886d67712df5'
+  '122f1ecc14d2de0fe93fc025f8c77e4531abd004fa172ffe69e40cd7d15d5c66'
 )
 arch=('any')
 options=(!strip)
